@@ -1,0 +1,66 @@
+html {
+    font-family: var(--font-family-base);
+    font-size: 16px;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-regular);
+    line-height: 1.5;
+    background-color: var(--color-background);
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    color: var(--color-text);
+}
+
+button,
+input,
+select,
+textarea {
+    border-radius: var(--radius-md);
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+    outline: 3px solid rgba(37, 99, 235, 0.3);
+    outline-offset: 2px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: var(--font-weight-semibold);
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: var(--font-size-2xl);
+}
+
+h2 {
+    font-size: var(--font-size-xl);
+}
+
+h3 {
+    font-size: var(--font-size-lg);
+}
+
+p {
+    color: var(--color-text-secondary);
+}
+
+#app {
+    min-height: 100vh;
+}
